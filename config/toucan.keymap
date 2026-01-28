@@ -45,7 +45,7 @@
             display-name = "SYM";
             bindings = <
                 &kp  GRAVE   &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET       &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp BSPC
-                &kp  ESC   &kp BSLH         &trans  &trans    &trans    &trans       &trans	      &kp LS(MINUS) &kp PLUS 	   &kp LS(LBRC) &kp LS(RBRC) &kp PIPE
+                &kp  ESC   &kp LC(LEFT) &kp LC(DOWN) &kp LC(UP) &kp LC(RIGHT)    &trans       &trans	      &kp LS(MINUS) &kp PLUS 	   &kp LS(LBRC) &kp LS(RBRC) &kp PIPE
                 &kp  LSHFT &studio_unlock   &trans  &trans    &trans    &trans       &trans       &kp LEFT  &kp DOWN        &kp UP    &kp RIGHT &kp ENTER    
                                                 &kp LGUI     &trans       &kp ENTER      &kp SPACE  &trans   &kp RALT
             >;
